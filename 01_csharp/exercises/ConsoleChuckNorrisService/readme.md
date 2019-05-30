@@ -2,6 +2,7 @@
 
 In dieser Übung geht es darum, sich mit .NET, C# und Visual Studio vertraut zu machen.
 Kommen Sie bei Fragen gerne auf mich zu!
+Nutzen Sie auch [Microsoft Docs](https://docs.microsoft.com).
 
 ## Aufgabe 1
 
@@ -22,8 +23,13 @@ In dieser Aufgabe implementieren wir unsere erste C# Klasse.
 - `DummyJokeProvider` soll schlicht einen beliebigen Witz zurück geben.
 - Rufen Sie ihre Implementierung in der `Programm.cs` auf.
 
+### Erweiterung
+- Wählen Sie eine geeignete Speicherstruktur um mehrere Witze zur Laufzeit hinterlegen zu können.
+- Fügen Sie dieser Struktur mehrere Witze hinzu
+- Geben Sie einen zufälligen Witz auf die Console aus.
+
 > Hinweise:
-> `Task.FromResult`, `Console.WriteLine`
+> `Task.FromResult`, `Console.WriteLine`, `Random`
 
 ## Aufgabe 3
 
@@ -43,7 +49,7 @@ In dieser Aufgabe rufen wir eine API mittels `HttpClient` auf.
 - Implementieren Sie eine Klasse `ApiJokeProvider`, welche die API `https://api.chucknorris.io/jokes/random` aufruft und den zurückgelieferten Witz auf der Console ausgiebt.
 
 > Hinweise:
-> Rufen sie [https://api.chucknorris.io/jokes/random](https://api.chucknorris.io/jokes/random) im Browser / Postman auf. Implementieren Sie eine Klasse, welche die zurückgelieferten JSON-Daten abbildet.
+> Rufen sie [https://api.chucknorris.io/jokes/random](https://api.chucknorris.io/jokes/random) im Browser / Postman auf. Implementieren Sie eine Klasse, welche die zurückgelieferten JSON-Daten abbildet. Nutzen sie [Microsoft Docs](https://docs.microsoft.com) Beispiele für die Verwendung von `HttpClient` zu finden.
 > `HttpClient`, `GetAsync`, `Content.ReadAsAsync`
 
 # Viel Erfolg
